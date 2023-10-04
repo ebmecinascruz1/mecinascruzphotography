@@ -1,0 +1,29 @@
+.circle{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid white;
+
+}
+
+.circle img{
+    width: auto;
+    height: 550px;
+    margin-top: -10px;
+    margin-left: -30px;
+
+}
+
+body{
+    background-color: #079EC3 ;
+}
+
+header{
+    background-color: #4BBAD5;
+    text-align: center;
+    padding-top: 15px;
+}
