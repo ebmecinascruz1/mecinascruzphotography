@@ -21,13 +21,15 @@
 
 /* background color */
 body{
-    background-color: #079EC3 ;
-
+    background-color: #F1E4E1 ;
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: larger;
 }
 
 /* header */
 header{
-    background-color: #4BBAD5;
+    background-color: #EFDBD7;
     text-align: center;
     padding-top: 15px;
 }
@@ -43,11 +45,21 @@ main{
 .column{
     float: left;
     width: 30%;
-    padding: 5px;
-    border: 5px solid white;
+    padding: 10px;
 }
+
+
+.column img{
+    border: 5px solid black;
+
+}
+
 .row::after{
     content:"";
     clear:both;
     display: table;
+}
+
+.column caption{
+    text-align: center;
 }
